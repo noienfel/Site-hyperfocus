@@ -1,0 +1,305 @@
+
+@import url(/comprar.css);
+@import url(/a\ ciencia.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin-left: auto;
+    margin-right: auto;
+  background: url(./Arquivos/bg-desktop-light.jpg) no-repeat top center/cover;;
+    
+}
+
+section {
+    background-color: #614FC6;
+    text-align: center;
+}
+
+ul {
+    gap: 48px;
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+
+}
+.barraroxa{
+    padding: 20px;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+   
+    color: #0B0B0B;
+
+font-family: Inter;
+font-size: 14.4px;
+font-style: normal;
+font-weight: 900;
+line-height: 22.5px;
+text-transform: uppercase;
+
+}
+
+
+ul li a:hover {
+    opacity: 1;
+
+}
+
+a  {
+    text-decoration: none;
+    color: black;
+}
+
+#contato {
+    padding-left: 300px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+nav h1 {
+    padding-left: 60px;
+  
+
+}
+
+h1 , h2 a{
+    font-family: Orbitron, sans-serif;
+}
+
+p , a  {
+    font-family: "Inter", sans-serif;
+}
+
+#navegacao {
+    
+background: url(/Arquivos/46a100fa-7219-4b5a-9731-6ead2441a555\ 3.png) no-repeat top center/cover;
+height: 1000px;
+}
+
+p {
+    color: white;
+}
+
+#h1 {
+    padding-top: 100px;
+}
+
+#h2 {
+    padding-top: 150px;
+    font-weight: 400;
+    font-size: 75px;
+    padding-bottom: 200px;
+}
+
+#h1 , #h2  {
+    color: white;
+    padding-left: 20px;
+    
+
+}
+
+#botao {
+    padding-left: 20px;
+}
+
+#garanta {
+    color: white;
+    
+    padding: 14px 32px 15px 32px;
+    background-color: #1B820B;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#garanta:hover {
+        background: #145c09;
+}
+     
+
+
+#razoes {
+    background-color: #614FC6;
+}
+
+#oo {
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+}
+
+#tudo {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 100px;
+
+}
+
+.card img {
+    margin-left: 40px;
+    
+} 
+
+#imgaprovado {
+    
+    padding-left: 20px;
+}
+
+#imginova {
+ padding-left: 10px;
+}
+
+#imgacucar {
+    padding-left: 25px;
+}
+
+#imggluten {
+  padding-left: 10px;
+}
+
+
+#geral {
+
+   padding-top: 50px;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   padding-bottom: 100px;
+}
+.compra {
+    text-align: center;
+}
+
+.compra p {
+    color: black;
+    padding-bottom: 40px;
+}
+
+.compra button {
+    border: none;
+    padding: 14px 32px 15px 32px;
+    background-color: #32BF26;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.compra button a {
+    color: white;
+}
+
+
+#ciencia p {
+    color: black;
+}
+
+#ciencia {
+    display: flex;
+    gap: 150px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+#cienciaa {
+    text-align: center;
+    padding-top: 150px;
+ 
+}
+
+#cienciaa h1 {
+    padding-bottom: 20px;
+}
+    
+#cienciaa p {
+    padding-bottom: 70px;
+}
+
+#cienciaa button  {
+    border: none;
+    padding: 14px 32px 15px 32px;
+    background-color: #32BF26;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#cienciaa button a {
+    color: white;
+}
+
+#body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #614FC6;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.coluna {
+    min-width: 150px;
+    padding: 10px;
+}
+
+.coluna h4 {
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+}
+
+.newsletter button[type="submit"] {
+    padding: 10px;
+    border: 1px solid white;
+    border-left: none;
+    background-color: white;
+    color: #614FC6;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-logo {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin: 150px 0;
+}
+
+.redes-sociais{
+    display: flex;
+    bottom: 20px;
+    left: 20px;
+    padding-left: 13px;
+    gap: 2em;
+}
+

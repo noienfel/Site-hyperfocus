@@ -1,0 +1,160 @@
+@import url(/comprar.css);
+@import url(/a\ ciencia.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo {
+    color: #0B0B0B;
+
+    font-family: Orbitron;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+
+.p , a  {
+    font-family: "Inter", sans-serif;
+}
+
+#body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #614FC6;
+    color: white;
+    
+}
+ul {
+    gap: 48px;
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul li a {
+color: black;
+text-decoration: none;
+font-family: Inter;
+font-size: 14.4px;
+font-style: normal;
+font-weight: 900;
+line-height: 22.5px;
+text-transform: uppercase;
+
+}
+
+
+ul li a:hover {
+    opacity: 1;
+
+}
+
+a  {
+    text-decoration: none;
+}
+
+   
+.login h1{
+    padding: 100px;
+}
+.form input{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    border-radius: 12px;
+
+}
+.barraroxa{
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.criarbotao{
+    margin-bottom: 150px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    background-color: #D8FFA1;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.criarbotao:hover {
+    transform: scale(1.1);  
+  }
+  .esqueceste{
+    color: #0004ff;
+    display: flex;
+    margin-right: 350px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.coluna {
+    min-width: 150px;
+    padding: 10px;
+}
+
+.coluna h4 {
+    margin-bottom: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+}
+
+.newsletter button[type="submit"] {
+    padding: 10px;
+    border: 1px solid white;
+    border-left: none;
+    background-color: white;
+    color: #614FC6;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-logo {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin: 150px 0;
+}
+
+.redes-sociais{
+    display: flex;
+    bottom: 20px;
+    left: 20px;
+    padding-left: 13px;
+    gap: 2em;
+}
+
+#razoes {
+    background-color: #614FC6;
+    margin-bottom: 120px;
+}
